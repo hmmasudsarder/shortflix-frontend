@@ -23,17 +23,22 @@ Clone the Repository:
 
 Bash
 `
-git clone https://github.com/hmmasudsarder/shortflix-frontend.git`
+git clone https://github.com/hmmasudsarder/shortflix-frontend.git
+`
 Navigate to the Directory:
 
 Bash
 
-`cd shortflix-frontend`
+`
+cd shortflix-frontend
+`
 Install Dependencies:
 
 Bash
 
-`npm install # or 'npm i'`
+`
+npm install # or 'npm i'
+`
 Run the Development Server:
 
 Bash
