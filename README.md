@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+That's an excellent question! Understanding the concept of the website you built will help you during the interview.
 
-## Getting Started
+The term "Short-flix" is a blend of "short films" and "Netflix," clearly indicating the website's purpose.
 
-First, run the development server:
+Based on the task description and how similar platforms operate, your "Short-flix" website is a:
 
-```bash
+🎬 Mini Over-the-Top (OTT) Video Streaming Platform
+It is specifically designed for short-form video content.
+
+What to See on the Website:
+Homepage/Landing Screen: This will be your main view, likely a full-screen, responsive grid layout, very similar to the main screen you see when you browse Netflix, Hulu, or Disney+.
+
+Video Thumbnails: The grid will contain a series of cards or posters (thumbnails) representing each of the 5-10 videos fetched from your /api/shorts endpoint.
+
+Video Titles and Tags: Each card or a corresponding detail area will display the title and tags (like genre, topic, etc.) for that short video.
+
+Video Player: When a user clicks on one of the thumbnails, a video player (likely an HTML5 <video> element) will appear—perhaps in a modal or a new section—to play the short clip using the videoUrl.
+
+⚙️ Local Development Setup
+To run the Short-flix frontend locally, follow these steps:
+
+Clone the Repository:
+
+Bash
+
+git clone https://github.com/hmmasudsarder/shortflix-frontend.git
+Navigate to the Directory:
+
+Bash
+
+cd shortflix-frontend
+Install Dependencies:
+
+Bash
+
+npm install # or 'npm i'
+Run the Development Server:
+
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application should now be accessible in your web browser, typically at http://localhost:[Port Number].
