@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     const fetchShorts = async () => {
       try {
-        const res = await fetch("/api/shorts");
+        const res =  await fetch("http://localhost:5000/api/shorts");
         const data = await res.json();
         setShorts(data);
       } catch (error) {
@@ -25,7 +25,7 @@ export default function Home() {
     };
     fetchShorts();
   }, []);
-
+console.log(shorts)
   return (
     <div className="p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">🎬 ShortFlix</h1>
