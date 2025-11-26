@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     const fetchShorts = async () => {
       try {
-        const res =  await fetch("http://localhost:5000/api/shorts");
+        const res =  await fetch("https://task-sortfilex.vercel.app/api/shorts");
         const data = await res.json();
         setShorts(data);
       } catch (error) {
